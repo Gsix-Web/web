@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+.body {
+	background: linear-gradient(#121619, #121619, #121619, #323941, #121619);
+}
+
+#ttl {
+	font-family:  Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+	text-shadow: 0px 0px 20px black;
+	text-decoration-color: aquamarine;
+	box-shadow: 0px 0px 20px 2px #C1F2FF;
+	background-color: white;
+	text-align: center;
+	
+}
+
+#section1 {
+	 background-image: url("imagen/puestaDeSol.png");
+}
+
+.logo img {
+
+  width: 100%;
+  height: auto;
+
+}
+
+.main {
+	background: #9C181A
+	
+}

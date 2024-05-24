@@ -1,0 +1,79 @@
+// Scss Document
+@import 'reset/variables';
+@import 'reset/mixins';
+@import 'reset/reset';
+@import 'reset/keyframes';
+
+
+
+
+#top {
+	padding-right: 40px
+
+}
+
+.top-a {
+    background-color: #3C3C3C;
+	width: auto;
+	height: 50px;
+}
+
+
+#title {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans";
+	color: #FF8C31
+		
+}
+
+a {
+    color: #FF8C31;
+    text-decoration: none; 
+	text-shadow: 0px 0px 10px #FF8C31;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	padding: 30px;
+	
+	
+}
+
+a:hover {
+    color: #FF8C31; 
+}
+
+h1 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; 
+}
+
+.Info {
+	color:hsla(40,100%,96%,1.00);
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 20px
+}
+
+.acordeon {
+	width: 90%;
+	max-width: 120cm;
+	background-color: aqua;
+	padding: 2cm;
+	@include neo( 1, 1cm, 1cm )
+}
+
+.acordeon .bloque {
+	background-color: red;
+	margin: 0 0 1cm;
+	padding: 1cm;
+	@include neo( 1, 1cm, 1cm )
+}
+
+.acordeon .h2 {
+	background-color: lime;
+	margin: 0 0 1cm;
+	padding: 1cm;
+	@include neo( 1, 1cm, 1cm )
+}
+.acordeon .contenido {
+	background-color: pink;
+	padding: 1cm;
+	@include neo( 1, 1cm, 1cm )
+}
+
+
