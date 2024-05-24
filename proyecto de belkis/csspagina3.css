@@ -1,0 +1,293 @@
+@charset "utf-8";
+/* CSS Document */
+
+Body {
+	
+	background-color: #2C2C2C;
+	
+}
+
+#Content {
+	
+	background-color: gray;
+	padding: 30px;
+	margin: 50px;
+	border-radius: 10px;
+	
+}
+
+.Titulos {
+	
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 30px;
+	color: orange;
+	
+}
+
+.nav {
+background-color: #262626;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 5px;
+transition: all 0.5s ease;
+}
+
+.nav.active a:hover{
+	background: #FF8C31;
+	color: black;
+}
+
+.Logo {
+font-size: 25px;
+color: #000; 
+font-weight: 100;
+}
+
+.menu{
+display: flex;
+}
+
+.menu li{
+	list-style: none;
+	margin: 10px;
+}
+
+.menu li a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	transition: all 0.5s ease;
+}
+
+.menu li a:hover {
+	padding: 5px 10px;
+	background: #fff;
+	color: #000;
+	border-radius: 15px;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.rollover1 {
+    width: 300px;
+    height: 170px;
+    transition: 0.3s;
+}
+
+
+.rollover1:hover {
+    content: url('consumoelectrico2.jpg');
+}
+
+.container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 20px; 
+    padding: 20px;
+}
+
+.container p {
+    flex: 1; 
+}
+
+.rollover1 {
+    width: 200px; 
+    height: 140px; 
+    transition: 0.3s; 
+}
+
+.content {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.rollover2 {
+    width: 300px;
+    height: 200px;
+    transition: 0.3s;
+}
+
+
+.rollover2:hover {
+    content: url('huella2.jpeg');
+}
+
+.rollover2 {
+    width: 200px;
+    height: 140px;
+    transition: 0.3s;
+}
+
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.content p {
+    flex: 1;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-around; /* Distribuye los elementos de manera uniforme */
+    align-items: center; /* Alinea verticalmente los elementos */
+    gap: 20px; /* Espacio entre los elementos */
+    padding: 20px;
+}
+
+figure {
+    margin: 0;
+}
+
+@keyframes show{
+	from{
+		opacity: 0;
+		scale: 25%
+	}
+	
+	to {
+		opacity: 1;
+		scale: 100%;
+	}
+}
+
+.imgt {
+	view-timeline-name: --image;
+	view-timeline-axis: block;
+	
+	animation-timeline: --image;
+	animation-name: show;
+	
+	animation-range: entry 25% cover 50%;
+	animation-fill-mode: both;
+}
+
+Body a {
+
+	color: #FF8C31;
+	text-shadow: 5px 4px 10px #FF8C31;
+	text-decoration: none;
+	
+}
+
+Nav a {
+	
+	color: darkgray;
+	text-shadow: none;
+	font-weight: bold;
+	text-decoration: none;
+	
+}
+
+Nav a:hover {
+	
+	color: #FF8C31;
+	text-shadow: 5px 4px 10px #FF8C31;
+	text-decoration: none;
+}
+
+.container {
+  align-items: center;
+  max-width: 1200px;
+  margin: 80px auto; 
+}
+
+.footer {
+  background-color: #262626;
+  padding: 80px 0;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+}
+
+.footer-links {
+  width: 25%;
+  padding: 0 15px;
+  margin-bottom: 30px; 
+}
+
+.footer-links ul {
+  padding: 0;
+  margin-bottom: 30px; 
+}
+
+
+.footer-links h4 {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 24px;
+  font-weight: 500;
+  border-bottom: 2px solid #FF8C31;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.footer-links ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #FF8C31;
+  display: block;
+  margin-bottom: 15px;
+  transition: all 1s ease;
+}
+
+.footer-links ul li a:hover {
+  display: inline-block;
+  min-height: 10px;
+  width: flex;
+  background-color: #FF8C31;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50px;
+  color: black;
+  transition: all 1s ease;
+}
+
+.social-link a {
+  transition: 1s;
+}
+
+.social-link a:hover {
+  background-color: #FF8C31;
+  border-radius: 20px;
+}
+
+@media(max-width:991px) {
+  .footer-row {
+    text-align: center;
+  }
+
+  .footer-links {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+#NavegacionPags li {
+	
+	background-color: #313131;
+	margin: 20px;
+	padding: 20px;
+	display: inline-flex;
+	list-style: none;
+	color: #000000;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-shadow: 5px 5px 5px black;
+	
+}
