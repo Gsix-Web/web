@@ -1,0 +1,404 @@
+@charset "utf-8";
+/* CSS Document */
+
+#Encabezado {
+	
+	Background-Color: Black;
+	
+}
+
+#Encabezado img {
+	
+	width: 100%;
+    height: auto;
+	display: block;
+
+}
+
+#Banner {
+	
+	width: 100%;
+	
+}
+
+#TituloPrin {
+	
+	Color: #FFA424;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	Font-Size: 70px;
+}
+
+.Titulos {
+	
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+	color: #F5C299;
+	padding-left: 50px;
+	
+}
+
+.SubTitulos {
+	
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+	color: #F5C299;
+	
+}
+
+#Anclas {
+	
+	background-color: #1D1D1D;
+	color: #000000;
+	text-shadow: 5px 5px 5px black;
+	margin-bottom: 50px;
+	
+}
+
+#Anclas li {
+	
+	list-style: none;
+	padding: 25px;
+	padding-right: 43px;
+	display: inline-flex;
+	font-size: 18px
+}
+
+Body {
+	
+	margin: 0px;
+	background-color: black;
+	
+}
+
+Body a {
+
+	color: #FF8C31;
+	text-shadow: 5px 4px 10px #FF8C31;
+	text-decoration: none;
+	
+}
+
+Nav a {
+	
+	color: darkgray;
+	text-shadow: none;
+	font-weight: bold;
+	text-decoration: none;
+	transition: transform 0.5 ease;
+
+}
+
+Nav a:hover {
+	
+	color: #FF8C31;
+	text-shadow: 5px 4px 10px #FF8C31;
+	text-decoration: none;
+	
+}
+
+#Content { 
+	
+	background-color: #2c2c2c;
+	color: #DDDDDD;
+	font-size: 17px;
+	overflow: hidden;
+	max-width: 100%;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+
+Article {
+	
+	text-align: justify;
+	Padding: 15px;
+
+}
+
+#Art2 img {
+
+	text-align: center;
+	width: 500px;
+	
+}
+
+#Art3 img {
+
+	text-align: center;
+	width: 500px;
+	
+}
+
+#Art1 p {
+	
+	margin: 60px;
+	font-size: 18px;
+}
+
+#Art2 p {
+	
+	margin: 60px;
+}
+
+
+#Art3 p {
+	
+	margin: 60px;
+}
+
+#Art2 .SubTitulos {
+	
+	text-align: center;
+}
+
+
+#Art3 .SubTitulos {
+	
+	text-align: center;
+}
+
+#Art4 p {
+	
+	margin: 40px;
+}
+
+#Art5 .CajaInfo {
+	
+	background-color: #0B0B0B;
+	box-shadow: 5px 5px 5px black;
+}
+
+.CajaInfo {
+	
+	width: 400px;
+	padding: 30px;
+	background-color: #3B3B3B;
+	display: inline-block;
+	margin: 75px;
+	box-shadow: 5px 5px 5px black;
+	border-radius: 10px;
+}
+
+.CajaInfo li {
+	
+	margin-top: 5px;
+	list-style: square;
+}
+
+.Franja {
+	
+	background-color: #1E1E1E;
+	padding: 10px;
+	
+}
+
+Footer nav li {
+	
+	padding: 25px;
+	display: inline-flex;
+	list-style: none;
+	color: #FF8318;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-shadow: 5px 5px 5px black;
+}
+
+Footer {
+		
+		background-color: #131313;
+}
+
+#navfooter {
+	
+	background-color: #191919;
+	padding-left: 65px;
+}
+
+#NavegacionPags li {
+	
+	background-color: #0B0B0B;
+	margin: 23px;
+	padding: 25px;
+	display: inline-flex;
+	list-style: none;
+	color: #000000;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-shadow: 5px 5px 5px black;
+	box-shadow: 5px 5px 5px black;
+	
+}
+
+#CajaTemasRel {
+	
+
+	background-color: #151515;
+	
+}
+
+#CajaTemasRel img {
+	
+	margin-top: 20px;
+	padding: 10px;
+	width: 380px;
+	height: 200px;
+	transition: transform 0.5s ease;
+}
+
+#CajaTemasRel img:hover {
+
+    transform: scale(1.1);
+	border-radius: 10px;
+}
+
+#CajaTemasRel .CajaInfo {
+	
+	width: 400px;
+	padding: 30px;
+	background-color: #3B3B3B;
+	display: inline-block;
+	margin: 90px;
+	box-shadow: 5px 5px 5px black;
+	border-radius: 15px;
+}
+
+#CajaTemasRel .CajaInfoActual {
+	
+	width: 400px;
+	padding: 30px;
+	background-color: #0A0A0A;
+	display: inline-block;
+	margin: 75px;
+	box-shadow: 5px 5px 5px black;
+	border-radius: 10px;
+}
+
+Video {
+	
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.nav {
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 25px;
+transition: all 0.5s ease;
+margin: none;
+}
+
+.nav.active {
+	background-color: #191919;
+	padding: 15px;
+}
+
+.nav.active .logo,
+.nav.active ul li a{
+	color: #FF8C31;
+}
+
+.nav.active a:hover{
+	background: #FF8C31;
+	color: black;
+}
+
+.Logo {
+font-size: 25px;
+color: #000; 
+font-weight: 100;
+}
+
+.menu{
+display: flex;
+margin-left:  700px;
+}
+
+.menu li{
+	list-style: none;	
+	margin: 0px;
+	margin-left: 60px;
+}
+
+.menu li a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	transition: all 0.5s ease;
+}
+
+.menu li a:hover {
+	padding: 5px 10px;
+	background: #fff;
+
+	color: #000;
+	border-radius: 15px;
+}
+
+.scroll{
+	height: 100px;
+}
+
+body::-webkit-scrollbar{
+	width: 10px;
+}
+
+body::-webkit-scrollbar-thumb{
+	background: orange;
+	border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+	background: #8C36AD;
+}
+
+.contenedor {
+    position: relative;
+}
+
+Header .CajaInfo {
+	
+	width: 700px;
+	background-color: rgba(47,47,47,0.8);
+	display: inline-block;
+	margin: 50px;
+    position: absolute;
+    top: 85%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    padding: 70px;
+	font-size: 30px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: #F5C299;
+}
+
+.Tabla {
+	
+	background-color: #212121;
+	border-collapse: collapse;
+	box-shadow: 5px 5px 5px black;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	border: solid 1px black;
+	margin: 20px;
+
+}
+
+.Tabla td {
+	
+	padding: 20px;
+	border: solid 1px black;
+	
+}
+
+.Tabla td:hover {
+	
+	background-color: #FF8C31;
+	color: black;
+
+}
+
+.Tabla .Campo {
+	
+	background-color: #FF8C31;
+	color: black;
+	font-weight: bold;
+}
